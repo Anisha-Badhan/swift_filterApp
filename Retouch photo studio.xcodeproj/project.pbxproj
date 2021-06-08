@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6223F97266F3DDD00BD43E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6223F96266F3DDD00BD43E3 /* AppDelegate.swift */; };
+		C6223F99266F3DDD00BD43E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6223F98266F3DDD00BD43E3 /* SceneDelegate.swift */; };
+		C6223F9B266F3DDD00BD43E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6223F9A266F3DDD00BD43E3 /* ViewController.swift */; };
+		C6223F9E266F3DDD00BD43E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6223F9C266F3DDD00BD43E3 /* Main.storyboard */; };
+		C6223FA0266F3DDF00BD43E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6223F9F266F3DDF00BD43E3 /* Assets.xcassets */; };
+		C6223FA3266F3DDF00BD43E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6223FA1266F3DDF00BD43E3 /* LaunchScreen.storyboard */; };
+		C6223FAE266F3DDF00BD43E3 /* Retouch_photo_studioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6223FAD266F3DDF00BD43E3 /* Retouch_photo_studioTests.swift */; };
+		C6223FB9266F3DDF00BD43E3 /* Retouch_photo_studioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6223FB8266F3DDF00BD43E3 /* Retouch_photo_studioUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6223FAA266F3DDF00BD43E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6223F8B266F3DDD00BD43E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6223F92266F3DDD00BD43E3;
+			remoteInfo = "Retouch photo studio";
+		};
+		C6223FB5266F3DDF00BD43E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6223F8B266F3DDD00BD43E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6223F92266F3DDD00BD43E3;
+			remoteInfo = "Retouch photo studio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6223F93266F3DDD00BD43E3 /* Retouch photo studio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Retouch photo studio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6223F96266F3DDD00BD43E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6223F98266F3DDD00BD43E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C6223F9A266F3DDD00BD43E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6223F9D266F3DDD00BD43E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6223F9F266F3DDF00BD43E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6223FA2266F3DDF00BD43E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6223FA4266F3DDF00BD43E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6223FA9266F3DDF00BD43E3 /* Retouch photo studioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Retouch photo studioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6223FAD266F3DDF00BD43E3 /* Retouch_photo_studioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retouch_photo_studioTests.swift; sourceTree = "<group>"; };
+		C6223FAF266F3DDF00BD43E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6223FB4266F3DDF00BD43E3 /* Retouch photo studioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Retouch photo studioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6223FB8266F3DDF00BD43E3 /* Retouch_photo_studioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retouch_photo_studioUITests.swift; sourceTree = "<group>"; };
+		C6223FBA266F3DDF00BD43E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6223F90266F3DDD00BD43E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6223FA6266F3DDF00BD43E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6223FB1266F3DDF00BD43E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6223F8A266F3DDD00BD43E3 = {
+			isa = PBXGroup;
+			children = (
+				C6223F95266F3DDD00BD43E3 /* Retouch photo studio */,
+				C6223FAC266F3DDF00BD43E3 /* Retouch photo studioTests */,
+				C6223FB7266F3DDF00BD43E3 /* Retouch photo studioUITests */,
+				C6223F94266F3DDD00BD43E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6223F94266F3DDD00BD43E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6223F93266F3DDD00BD43E3 /* Retouch photo studio.app */,
+				C6223FA9266F3DDF00BD43E3 /* Retouch photo studioTests.xctest */,
+				C6223FB4266F3DDF00BD43E3 /* Retouch photo studioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6223F95266F3DDD00BD43E3 /* Retouch photo studio */ = {
+			isa = PBXGroup;
+			children = (
+				C6223F96266F3DDD00BD43E3 /* AppDelegate.swift */,
+				C6223F98266F3DDD00BD43E3 /* SceneDelegate.swift */,
+				C6223F9A266F3DDD00BD43E3 /* ViewController.swift */,
+				C6223F9C266F3DDD00BD43E3 /* Main.storyboard */,
+				C6223F9F266F3DDF00BD43E3 /* Assets.xcassets */,
+				C6223FA1266F3DDF00BD43E3 /* LaunchScreen.storyboard */,
+				C6223FA4266F3DDF00BD43E3 /* Info.plist */,
+			);
+			path = "Retouch photo studio";
+			sourceTree = "<group>";
+		};
+		C6223FAC266F3DDF00BD43E3 /* Retouch photo studioTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6223FAD266F3DDF00BD43E3 /* Retouch_photo_studioTests.swift */,
+				C6223FAF266F3DDF00BD43E3 /* Info.plist */,
+			);
+			path = "Retouch photo studioTests";
+			sourceTree = "<group>";
+		};
+		C6223FB7266F3DDF00BD43E3 /* Retouch photo studioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6223FB8266F3DDF00BD43E3 /* Retouch_photo_studioUITests.swift */,
+				C6223FBA266F3DDF00BD43E3 /* Info.plist */,
+			);
+			path = "Retouch photo studioUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6223F92266F3DDD00BD43E3 /* Retouch photo studio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6223FBD266F3DDF00BD43E3 /* Build configuration list for PBXNativeTarget "Retouch photo studio" */;
+			buildPhases = (
+				C6223F8F266F3DDD00BD43E3 /* Sources */,
+				C6223F90266F3DDD00BD43E3 /* Frameworks */,
+				C6223F91266F3DDD00BD43E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Retouch photo studio";
+			productName = "Retouch photo studio";
+			productReference = C6223F93266F3DDD00BD43E3 /* Retouch photo studio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6223FA8266F3DDF00BD43E3 /* Retouch photo studioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6223FC0266F3DDF00BD43E3 /* Build configuration list for PBXNativeTarget "Retouch photo studioTests" */;
+			buildPhases = (
+				C6223FA5266F3DDF00BD43E3 /* Sources */,
+				C6223FA6266F3DDF00BD43E3 /* Frameworks */,
+				C6223FA7266F3DDF00BD43E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6223FAB266F3DDF00BD43E3 /* PBXTargetDependency */,
+			);
+			name = "Retouch photo studioTests";
+			productName = "Retouch photo studioTests";
+			productReference = C6223FA9266F3DDF00BD43E3 /* Retouch photo studioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6223FB3266F3DDF00BD43E3 /* Retouch photo studioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6223FC3266F3DDF00BD43E3 /* Build configuration list for PBXNativeTarget "Retouch photo studioUITests" */;
+			buildPhases = (
+				C6223FB0266F3DDF00BD43E3 /* Sources */,
+				C6223FB1266F3DDF00BD43E3 /* Frameworks */,
+				C6223FB2266F3DDF00BD43E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6223FB6266F3DDF00BD43E3 /* PBXTargetDependency */,
+			);
+			name = "Retouch photo studioUITests";
+			productName = "Retouch photo studioUITests";
+			productReference = C6223FB4266F3DDF00BD43E3 /* Retouch photo studioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6223F8B266F3DDD00BD43E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C6223F92266F3DDD00BD43E3 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					C6223FA8266F3DDF00BD43E3 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = C6223F92266F3DDD00BD43E3;
+					};
+					C6223FB3266F3DDF00BD43E3 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = C6223F92266F3DDD00BD43E3;
+					};
+				};
+			};
+			buildConfigurationList = C6223F8E266F3DDD00BD43E3 /* Build configuration list for PBXProject "Retouch photo studio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6223F8A266F3DDD00BD43E3;
+			productRefGroup = C6223F94266F3DDD00BD43E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6223F92266F3DDD00BD43E3 /* Retouch photo studio */,
+				C6223FA8266F3DDF00BD43E3 /* Retouch photo studioTests */,
+				C6223FB3266F3DDF00BD43E3 /* Retouch photo studioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6223F91266F3DDD00BD43E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6223FA3266F3DDF00BD43E3 /* LaunchScreen.storyboard in Resources */,
+				C6223FA0266F3DDF00BD43E3 /* Assets.xcassets in Resources */,
+				C6223F9E266F3DDD00BD43E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6223FA7266F3DDF00BD43E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6223FB2266F3DDF00BD43E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6223F8F266F3DDD00BD43E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6223F9B266F3DDD00BD43E3 /* ViewController.swift in Sources */,
+				C6223F97266F3DDD00BD43E3 /* AppDelegate.swift in Sources */,
+				C6223F99266F3DDD00BD43E3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6223FA5266F3DDF00BD43E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6223FAE266F3DDF00BD43E3 /* Retouch_photo_studioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6223FB0266F3DDF00BD43E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6223FB9266F3DDF00BD43E3 /* Retouch_photo_studioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6223FAB266F3DDF00BD43E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6223F92266F3DDD00BD43E3 /* Retouch photo studio */;
+			targetProxy = C6223FAA266F3DDF00BD43E3 /* PBXContainerItemProxy */;
+		};
+		C6223FB6266F3DDF00BD43E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6223F92266F3DDD00BD43E3 /* Retouch photo studio */;
+			targetProxy = C6223FB5266F3DDF00BD43E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6223F9C266F3DDD00BD43E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6223F9D266F3DDD00BD43E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6223FA1266F3DDF00BD43E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6223FA2266F3DDF00BD43E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6223FBB266F3DDF00BD43E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6223FBC266F3DDF00BD43E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6223FBE266F3DDF00BD43E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Retouch photo studio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anisha.Retouch-photo-studio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6223FBF266F3DDF00BD43E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Retouch photo studio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anisha.Retouch-photo-studio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C6223FC1266F3DDF00BD43E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Retouch photo studioTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anisha.Retouch-photo-studioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Retouch photo studio.app/Retouch photo studio";
+			};
+			name = Debug;
+		};
+		C6223FC2266F3DDF00BD43E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Retouch photo studioTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anisha.Retouch-photo-studioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Retouch photo studio.app/Retouch photo studio";
+			};
+			name = Release;
+		};
+		C6223FC4266F3DDF00BD43E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Retouch photo studioUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anisha.Retouch-photo-studioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Retouch photo studio";
+			};
+			name = Debug;
+		};
+		C6223FC5266F3DDF00BD43E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Retouch photo studioUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anisha.Retouch-photo-studioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Retouch photo studio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6223F8E266F3DDD00BD43E3 /* Build configuration list for PBXProject "Retouch photo studio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6223FBB266F3DDF00BD43E3 /* Debug */,
+				C6223FBC266F3DDF00BD43E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6223FBD266F3DDF00BD43E3 /* Build configuration list for PBXNativeTarget "Retouch photo studio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6223FBE266F3DDF00BD43E3 /* Debug */,
+				C6223FBF266F3DDF00BD43E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6223FC0266F3DDF00BD43E3 /* Build configuration list for PBXNativeTarget "Retouch photo studioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6223FC1266F3DDF00BD43E3 /* Debug */,
+				C6223FC2266F3DDF00BD43E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6223FC3266F3DDF00BD43E3 /* Build configuration list for PBXNativeTarget "Retouch photo studioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6223FC4266F3DDF00BD43E3 /* Debug */,
+				C6223FC5266F3DDF00BD43E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6223F8B266F3DDD00BD43E3 /* Project object */;
+}
